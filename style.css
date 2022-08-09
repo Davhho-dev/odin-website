@@ -73,6 +73,7 @@ a:hover {
 .body {
     height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255, 0.3);
@@ -81,4 +82,9 @@ a:hover {
 .quote {
     font-size: 30px;
     width: 600px;    
+}
+
+.quote-artist {
+    padding-left: 500px;
+    font-size: 20px;
 }
