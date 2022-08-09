@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-image: url(images/kara-eads-WKfq1fm4gkU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;  
+    padding: 30px;
+}
+
+/*utilizing the imported google font*/
+.logo {
+    font-family: 'DM Serif Display';
+    font-size: 100px;
+    color: black;   
+    padding-left: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    gap: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .09)
+}
