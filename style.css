@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/*used background image from Photo by <a href="https://unsplash.com/@karaeads?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kara Eads</a> on <a href="https://unsplash.com/s/photos/plant-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
 body {
     margin: 0;
     background-image: url(images/kara-eads-WKfq1fm4gkU-unsplash.jpg);
@@ -88,6 +89,8 @@ a:hover {
     padding-left: 500px;
     font-size: 20px;
 }
+
+/*FOOTER SECTION*/
 
 .footer {
     margin-top: 300px;
