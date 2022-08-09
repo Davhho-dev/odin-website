@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-image: url(images/kara-eads-WKfq1fm4gkU-unsplash.jpg);
@@ -12,14 +16,14 @@ body {
     align-items: center;
     height: 100px;  
     padding: 30px;
+    font-family: 'DM Serif Display'
 }
 
 /*utilizing the imported google font*/
 .logo {
-    font-family: 'DM Serif Display';
     font-size: 100px;
     color: black;   
-    padding-left: 100px;
+    margin-left: 100px;
 }
 
 ul {
@@ -32,7 +36,29 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-weight: bolder;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, .09)
+    background-color: rgb(255, 255, 255, 0.1)
+}
+
+/*HERO SECTION*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    height: auto;   
+    margin: 100px 130px;
+    gap: 20px;
+}
+
+.hero-title {
+    font-size: 35px;
+    font-weight: bolder;
+    width: 250px;
+}
+
+.hero-content {
+    font-size: 20px;
 }
