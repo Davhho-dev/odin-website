@@ -65,7 +65,8 @@ a.homelinks:hover {
     width: 250px;
 }
 
-.hero-content {
+.hero-content,
+.about-content {
     font-size: 20px;
 }
 
@@ -115,10 +116,54 @@ a.logo {
 }
 
 .about-content {
-    border: 2px solid black;
-    margin: 100px 130px;
+    margin: 100px;
     height: 500px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     gap: 25px;
+    background-color: rgb(255, 255, 255, 0.05);
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+a.purchase {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*PLANT PAGE*/
+.plant {
+    margin: 0px;
+    background-image: url(images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plant-content {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plant-section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    font-size: 20px;
+}
+
+.plant-chart {
+    float:left;
+    width: 500px;
+    height: 600px;
+    background-size: contain;
 }
