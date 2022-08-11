@@ -159,11 +159,12 @@ a.purchase {
     width: 500px;
     height: 600px;
     font-size: 20px;
+    gap: 25px;  
 }
 
 .plant-chart {
     float:left;
     width: 500px;
-    height: 600px;
+    height: 500px;
     background-size: contain;
 }
