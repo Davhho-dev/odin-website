@@ -3,7 +3,7 @@
 }
 
 /*used background image from Photo by <a href="https://unsplash.com/@karaeads?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kara Eads</a> on <a href="https://unsplash.com/s/photos/plant-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
-body {
+.homepage {
     margin: 0;
     background-image: url(images/kara-eads-WKfq1fm4gkU-unsplash.jpg);
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body {
     align-items: center;
     height: 100px;  
     padding: 30px;
-    font-family: 'DM Serif Display'
+    font-family: 'DM Serif Display';
 }
 
 /*utilizing the imported google font*/
@@ -36,7 +36,7 @@ ul {
     gap: 100px;
 }
 
-a {
+a.homelinks {
     text-decoration: none;
     color: black;
     font-weight: bolder;
@@ -44,7 +44,7 @@ a {
     background-color: rgb(255, 255, 255, 0.1)
 }
 
-a:hover {
+a.homelinks:hover {
     border-bottom: 2px solid black;
 }
 
@@ -97,4 +97,28 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*ABOUT HEADER*/
+
+/*image was used from Photo by <a href="https://unsplash.com/es/@chrisleeiam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Lee</a> on <a href="https://unsplash.com/s/photos/house-plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+*/
+.about {
+    margin: 0;
+    background-image: url(images/chris-lee-70l1tDAI6rM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a.logo {
+    text-decoration: none;
+}
+
+.about-content {
+    border: 2px solid black;
+    margin: 100px 130px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
 }
