@@ -151,6 +151,7 @@ a.purchase {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .plant-section {
@@ -166,5 +167,30 @@ a.purchase {
     float:left;
     width: 500px;
     height: 500px;
-    background-size: contain;
+}
+
+/*CONTACT PAGE*/
+
+.contact {
+    margin: 0;
+    background-image: url(images/chris-lee-yb3hsmz4utg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
