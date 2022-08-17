@@ -94,11 +94,11 @@ a.homelinks:hover {
 
 /*FOOTER SECTION*/
 
-.footer {
-    margin-top: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.test {
+    position: fixed;
+    left: 45%;
+    bottom: 0;
+    text-align: center;
 }
 
 /*ABOUT HEADER*/
